@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar " id="nav">
+        <div class="container"><a class="navbar-brand logo" href="#" style="color: gray;" id="menu">MCKING</a><button id="navburger" data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden" style="color: gray;">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: gray;">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" style="color: gray;">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <style>
+        @media screen and (max-width: 800px) {
+            #navburger {
+                background-color: darkgray;
+            }
+            #menu {
+                color: black!important;
+            }
+            #orangeWord {
+                padding-top: 20px;
+            }
+            #title {
+                width: 70%;
+                line-height: 45px;
+            }
+        }
+    </style>
+    <main class="page lanidng-page">
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-4 offset-lg-1 text">
+                        <h5 id="orangeWord" style="color:darkorange; padding-bottom: 20px; text-align: left; padding-top: 50px;">MOBILE, IPAD OR DESKTOP</h5>
+                        <h1 id="title" style="color: blue;text-align: left; font-family:'PT Serif', serif;">Ideal Education Platform for Primary Students, Parents and Teachers</h1>
+                        <p style="color:gray; text-align: left; padding-top: 30px;">More than 10,000 practice questions for all subjects Publish customized assignments in 1 minute Auto checking and grading Track student's performance over time</p>
+                        <div class="row" style="padding-top: 25px;">
+                            <a href="login.html" class="btn btn-danger" style="width: 50%;">Start Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-7">
+                        <div class="portfolio-laptop-mockup">
+                            <div class="screen" style="width: 500px; height: 300px;">
+                                <div class="screen-content" style="background-image:url(&quot;pic1.jpg&quot;);"></div>
+                            </div>
+                            <div class="keyboard"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <video width="600" height="300" controls>
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-8 d-flex justify-content-center align-items-center" style="color: rgb(223, 51, 79);">
+                        <h2 style="padding-right: 230px; font-weight: bolder;">12</h2>
+                        <h2 style="padding-right: 230px;font-weight: bolder;">4,000+</h2>
+                        <h2 style="padding-right: 230px;font-weight: bolder;">25,000+</h2>
+                        <h2 style="font-weight: bolder;">10,000</h2>
+
+                    </div>
+                    <div class="col-md-8 d-flex justify-content-center align-items-center">
+                        <h6 style="padding-right: 250px;">School Users</h6>
+                        <h6 style="padding-right: 270px;">Teachers</h6>
+                        <h6 style="padding-right: 270px;">Students</h6>
+                        <h6>Questions</h6>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <img src="pic2.jpg" alt="" style="width: 90%;">
+                    </div>
+
+                    <div class="col-md-4">
+                        <h5>Easy to Use</h5>
+                        <h1 style="color: blue;">6 Steps Away from Customizing a Study Plan for Your Student
+                        </h1>
+                        <div class="row" style="background-color: rgb(200, 240, 253); padding-top: 5px;">
+                            <p>1. Register accounts for teacher and student
+                                <button onclick="myFunction()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer" style="color: gray; background-color: white; padding-top: 10px;
+                            padding-bottom: 10px;"></div>
+
+                            <script>
+                                function myFunction() {
+                                    var text = "Register thinka accounts for both teacher and student with Google, Facebook or Email";
+
+
+                                    document.getElementById("answer").innerHTML = text;
+                                }
+                            </script>
+
+                            <p>2. Invite student
+                                <button onclick="myFunction2()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer2" style="color: gray; background-color: white; padding-top: 10px;
+                            padding-bottom: 10px;"></div>
+                            <script>
+                                function myFunction2() {
+                                    var text = "Teacher can invite your student on thinka. You can start using thinka when your student accept your invitation";
+
+
+                                    document.getElementById("answer2").innerHTML = text;
+                                }
+                            </script>
+
+                            <p>3. Publish customized assignments in a click
+                                <button onclick="myFunction3()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer3" style="color: gray; background-color: white; padding-top: 10px;
+padding-bottom: 10px;"></div>
+                            <script>
+                                function myFunction3() {
+                                    var text = "Teacher can customize the assignment's subject, chapters, difficulty, due date, time limit and number of questions. Student can start working on it using mobile devices or computers right away.";
+
+
+                                    document.getElementById("answer3").innerHTML = text;
+                                }
+                            </script>
+
+                            <p>4. Student works on the assignment online
+                                <button onclick="myFunction4()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer4" style="color: gray; background-color: white; padding-top: 10px;
+padding-bottom: 10px;"></div>
+                            <script>
+                                function myFunction4() {
+                                    var text = "Student finishes the assignment within the deadline set by teacher";
+
+
+                                    document.getElementById("answer4").innerHTML = text;
+                                }
+                            </script>
+
+                            <p>5. Auto checking and grading
+                                <button onclick="myFunction5()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer5" style="color: gray; background-color: white; padding-top: 10px;
+padding-bottom: 10px;"></div>
+                            <script>
+                                function myFunction5() {
+                                    var text = "thinka will automatically check the answers and grade student's work. Teacher can check the assignment report and solutions to questions";
+
+
+                                    document.getElementById("answer5").innerHTML = text;
+                                }
+                            </script>
+
+                            <p>6. Performance analysis
+                                <button onclick="myFunction6()" id="submitBtn" style="float: right;color:gray">
+                                    <svg style="float: right;" xmlns="http://www.w3.org/2000/svg" width="20" height="30" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                                    </svg>
+                                </button>
+                            </p>
+
+                            <div id="answer6" style="color: gray; background-color: white; padding-top: 10px;
+padding-bottom: 10px;"></div>
+                            <script>
+                                function myFunction6() {
+                                    var text = "Teacher can check student's performance over time and understand student's strengths and weaknesses";
+
+
+                                    document.getElementById("answer6").innerHTML = text;
+                                }
+                            </script>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <h1 style="color: blue;">Mobile and iPad App</h1>
+                        <h3 style="color: gray;">iOS and Android applications provides perfect user experiences, allow students to practice anytime, anywhere</h3>
+                        <div class="row">
+                            <a href="" class="btn btn-secondary" style="margin-bottom: 20px; margin-top: 30px; width: 60%;">App Store</a>
+                            <a href="" class="btn btn-info" style="width: 60%;">Google Play Store</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="pic3.jpg" alt="" style="width: 90%;">
+                    </div>
+        </section>
+
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <img src="pic4.jpg" alt="" style="width: 90%;">
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <h6 style="font-weight: bolder; color: gray; padding-bottom: 10px;">About Us</h6>
+                        <h1 style="color: blue; font-weight: bolder; padding-bottom: 20px;">Incubated by Hong Kong Science and Technology Parks</h1>
+                        <p style="color: gray;">MCKING Education launched an online education platform for HKDSE Mathematics in 2017. Since then we received lots of positive feedbacks from the education industry. We were supported and funded by Tung Wah Group of Hospitals and
+                            reported by different media channels. Last year, we have been selected by Hong Kong Science and Technology Parks to participate in its incubation program. Until today, there are 12 registered schools using thinka in daily teaching</p>
+
+                        <p style="color:rgb(74, 180, 216); padding-bottom: 40px;">Now, it has expanded our question bank to cover primary school curriculum. We are working on question banks for junior secondary and oversea curriculum.</p>
+
+                        <a href="login.html" class="btn btn-success" style="width: 30%;">Start Now</a>
+
+                    </div>
+        </section>
+
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-8">
+                        <h6 style="font-weight: bolder; color: gray; padding-bottom: 10px;">Contact Us</h6>
+                        <h1 style="color: blue;">Got any Question or Feedback? Feel Free to Contact Us</h1>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-8 ">
+                                <form action="">
+                                    <input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email" name="email"><br>
+                                    <textarea class="form-control form-control-user" placeholder="Message" name="Text1" cols="40" rows="5" style="margin-bottom: 20px;"></textarea>
+                                    <a href="" class="btn btn-success" style="width: 30%; float: right;">Send</a>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+    </main>
+
+    <footer class="page-footer ">
+        <div class="container ">
+            <div class="links "><a href="# ">About me</a><a href="# ">Contact me</a><a href="# ">Projects</a></div>
+            <div class="social-icons "><a href="# "><i class="icon ion-social-facebook "></i></a><a href="# "><i class="icon ion-social-instagram-outline "></i></a><a href="# "><i class="icon ion-social-twitter "></i></a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js "></script>
+    <script src="assets/js/theme.js "></script>
+</body>
+
+</html>
